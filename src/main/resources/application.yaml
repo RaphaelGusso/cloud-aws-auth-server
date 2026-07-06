@@ -1,0 +1,23 @@
+spring:
+  config:
+    import: "classpath:security.yaml"
+  application:
+    name: authserver
+  web:
+    error:
+      whitelabel:
+        enabled: false
+      include-message: always
+
+server:
+  servlet:
+    context-path: /api
+
+springdoc:
+  swagger-ui:
+    use-root-path: true
+
+logging:
+  file:
+    path: ./logs
+

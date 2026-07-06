@@ -1,0 +1,5 @@
+security:
+  issuer: "PUCPR AuthServer"
+  secret: "6d92f1d355bb43e11e8f04a9f115adabdcfb32b4"
+  expireHours: 48
+  adminExpireHours: 1

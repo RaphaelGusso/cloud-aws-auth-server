@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2023-11-24T18:25:40.498Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AIDAQCQ6C5XVUVGST3RGO"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "24.239.160.171"
+      },
+      "responseElements": {
+        "x-amz-request-id": "YS31G5P6S8DC80KR",
+        "x-amz-id-2": "JiTeTaQg38jyoz2scNGXdX8PnFGXpQy4jcjk3BQ4aPsU3BV8YyYVwll6y1HK3gV7GRs3V/CIfxV/s="
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "e7854a82-30da-4aca-9d8f-5f3dcb4f5adb",
+        "bucket": {
+          "name": "raphaelgusso-authserver-thumbnail",
+          "ownerIdentity": {
+            "principalId": "A3C6UQNWHN7FON"
+          },
+          "arn": "arn:aws:s3:::raphaelgusso-authserver-thumbnail"
+        },
+        "object": {
+          "key": "avatars/avatar.jpg",
+          "size": 60928,
+          "eTag": "5d1efceeba9d547385fbc305bf36f989",
+          "sequencer": "006560EAA465E7A98B"
+        }
+      }
+    }
+  ]
+}
